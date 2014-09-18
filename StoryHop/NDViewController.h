@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NDuser.h"
 
 @interface NDViewController : UIViewController
+
+@property (strong, nonatomic) NDuser *activeUser;
 
 @end

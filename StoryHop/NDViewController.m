@@ -7,6 +7,7 @@
 //
 
 #import "NDViewController.h"
+#import "NDuser.h"
 
 @interface NDViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.activeUser = [NDuser initUserWithFirstName:@"Nikki" withLastName:@"Durkin" withProfilePic:[UIImage imageNamed:@"nikkiDurkin.png"] withStars:10 onLevel:1];
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

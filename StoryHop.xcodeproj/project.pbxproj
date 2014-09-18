@@ -21,6 +21,18 @@
 		159DD93119CAC05C00679EF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DD91319CAC05C00679EF7 /* UIKit.framework */; };
 		159DD93919CAC05C00679EF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 159DD93719CAC05C00679EF7 /* InfoPlist.strings */; };
 		159DD93B19CAC05C00679EF7 /* StoryHopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD93A19CAC05C00679EF7 /* StoryHopTests.m */; };
+		159DD94619CAC21800679EF7 /* NDStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD94519CAC21800679EF7 /* NDStyleKit.m */; };
+		159DD94D19CAC85700679EF7 /* NDStory.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD94C19CAC85700679EF7 /* NDStory.m */; };
+		159DD95119CAC8FF00679EF7 /* NDuser.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD95019CAC8FF00679EF7 /* NDuser.m */; };
+		159DD95D19CAD04D00679EF7 /* zacBorrowdale.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD95719CAD04D00679EF7 /* zacBorrowdale.png */; };
+		159DD95E19CAD04D00679EF7 /* pandoraShelley.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD95819CAD04D00679EF7 /* pandoraShelley.png */; };
+		159DD95F19CAD04D00679EF7 /* bryceYork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159DD95919CAD04D00679EF7 /* bryceYork.jpg */; };
+		159DD96019CAD04D00679EF7 /* nikkiDurkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159DD95A19CAD04D00679EF7 /* nikkiDurkin.jpg */; };
+		159DD96119CAD04D00679EF7 /* alexDurkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159DD95B19CAD04D00679EF7 /* alexDurkin.jpg */; };
+		159DD96219CAD04D00679EF7 /* JaneLu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159DD95C19CAD04D00679EF7 /* JaneLu.jpg */; };
+		159DD96519CAD54000679EF7 /* NDdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96419CAD54000679EF7 /* NDdata.m */; };
+		159DD96919CADA8E00679EF7 /* starIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD96719CADA8E00679EF7 /* starIcon.png */; };
+		159DD96A19CADA8E00679EF7 /* trophyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD96819CADA8E00679EF7 /* trophyIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +65,22 @@
 		159DD93619CAC05C00679EF7 /* StoryHopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryHopTests-Info.plist"; sourceTree = "<group>"; };
 		159DD93819CAC05C00679EF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		159DD93A19CAC05C00679EF7 /* StoryHopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryHopTests.m; sourceTree = "<group>"; };
+		159DD94419CAC21800679EF7 /* NDStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDStyleKit.h; sourceTree = "<group>"; };
+		159DD94519CAC21800679EF7 /* NDStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDStyleKit.m; sourceTree = "<group>"; };
+		159DD94B19CAC85700679EF7 /* NDStory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDStory.h; sourceTree = "<group>"; };
+		159DD94C19CAC85700679EF7 /* NDStory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDStory.m; sourceTree = "<group>"; };
+		159DD94F19CAC8FF00679EF7 /* NDuser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDuser.h; sourceTree = "<group>"; };
+		159DD95019CAC8FF00679EF7 /* NDuser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDuser.m; sourceTree = "<group>"; };
+		159DD95719CAD04D00679EF7 /* zacBorrowdale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zacBorrowdale.png; sourceTree = "<group>"; };
+		159DD95819CAD04D00679EF7 /* pandoraShelley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pandoraShelley.png; sourceTree = "<group>"; };
+		159DD95919CAD04D00679EF7 /* bryceYork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bryceYork.jpg; sourceTree = "<group>"; };
+		159DD95A19CAD04D00679EF7 /* nikkiDurkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nikkiDurkin.jpg; sourceTree = "<group>"; };
+		159DD95B19CAD04D00679EF7 /* alexDurkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alexDurkin.jpg; sourceTree = "<group>"; };
+		159DD95C19CAD04D00679EF7 /* JaneLu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JaneLu.jpg; sourceTree = "<group>"; };
+		159DD96319CAD54000679EF7 /* NDdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDdata.h; sourceTree = "<group>"; };
+		159DD96419CAD54000679EF7 /* NDdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDdata.m; sourceTree = "<group>"; };
+		159DD96719CADA8E00679EF7 /* starIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starIcon.png; sourceTree = "<group>"; };
+		159DD96819CADA8E00679EF7 /* trophyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophyIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +145,9 @@
 				159DD92119CAC05C00679EF7 /* Main.storyboard */,
 				159DD92419CAC05C00679EF7 /* NDViewController.h */,
 				159DD92519CAC05C00679EF7 /* NDViewController.m */,
+				159DD96619CADA7C00679EF7 /* Images */,
+				159DD94E19CAC86500679EF7 /* Objects */,
+				159DD94A19CAC82300679EF7 /* Styles */,
 				159DD92719CAC05C00679EF7 /* Images.xcassets */,
 				159DD91619CAC05C00679EF7 /* Supporting Files */,
 			);
@@ -150,6 +181,59 @@
 				159DD93719CAC05C00679EF7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		159DD94A19CAC82300679EF7 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				159DD94419CAC21800679EF7 /* NDStyleKit.h */,
+				159DD94519CAC21800679EF7 /* NDStyleKit.m */,
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		159DD94E19CAC86500679EF7 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				159DD94B19CAC85700679EF7 /* NDStory.h */,
+				159DD94C19CAC85700679EF7 /* NDStory.m */,
+				159DD94F19CAC8FF00679EF7 /* NDuser.h */,
+				159DD95019CAC8FF00679EF7 /* NDuser.m */,
+				159DD95519CACC7300679EF7 /* Dummy Data */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		159DD95519CACC7300679EF7 /* Dummy Data */ = {
+			isa = PBXGroup;
+			children = (
+				159DD95619CAD02B00679EF7 /* Profile Pics */,
+				159DD96319CAD54000679EF7 /* NDdata.h */,
+				159DD96419CAD54000679EF7 /* NDdata.m */,
+			);
+			name = "Dummy Data";
+			sourceTree = "<group>";
+		};
+		159DD95619CAD02B00679EF7 /* Profile Pics */ = {
+			isa = PBXGroup;
+			children = (
+				159DD95719CAD04D00679EF7 /* zacBorrowdale.png */,
+				159DD95819CAD04D00679EF7 /* pandoraShelley.png */,
+				159DD95919CAD04D00679EF7 /* bryceYork.jpg */,
+				159DD95A19CAD04D00679EF7 /* nikkiDurkin.jpg */,
+				159DD95B19CAD04D00679EF7 /* alexDurkin.jpg */,
+				159DD95C19CAD04D00679EF7 /* JaneLu.jpg */,
+			);
+			name = "Profile Pics";
+			sourceTree = "<group>";
+		};
+		159DD96619CADA7C00679EF7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				159DD96719CADA8E00679EF7 /* starIcon.png */,
+				159DD96819CADA8E00679EF7 /* trophyIcon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +313,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159DD95F19CAD04D00679EF7 /* bryceYork.jpg in Resources */,
+				159DD96219CAD04D00679EF7 /* JaneLu.jpg in Resources */,
 				159DD92819CAC05C00679EF7 /* Images.xcassets in Resources */,
 				159DD91A19CAC05C00679EF7 /* InfoPlist.strings in Resources */,
+				159DD96A19CADA8E00679EF7 /* trophyIcon.png in Resources */,
+				159DD96919CADA8E00679EF7 /* starIcon.png in Resources */,
 				159DD92319CAC05C00679EF7 /* Main.storyboard in Resources */,
+				159DD96119CAD04D00679EF7 /* alexDurkin.jpg in Resources */,
+				159DD95D19CAD04D00679EF7 /* zacBorrowdale.png in Resources */,
+				159DD95E19CAD04D00679EF7 /* pandoraShelley.png in Resources */,
+				159DD96019CAD04D00679EF7 /* nikkiDurkin.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159DD96519CAD54000679EF7 /* NDdata.m in Sources */,
+				159DD94D19CAC85700679EF7 /* NDStory.m in Sources */,
 				159DD92619CAC05C00679EF7 /* NDViewController.m in Sources */,
 				159DD92019CAC05C00679EF7 /* NDAppDelegate.m in Sources */,
+				159DD94619CAC21800679EF7 /* NDStyleKit.m in Sources */,
+				159DD95119CAC8FF00679EF7 /* NDuser.m in Sources */,
 				159DD91C19CAC05C00679EF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
