@@ -14,7 +14,6 @@
 		159DD91C19CAC05C00679EF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD91B19CAC05C00679EF7 /* main.m */; };
 		159DD92019CAC05C00679EF7 /* NDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD91F19CAC05C00679EF7 /* NDAppDelegate.m */; };
 		159DD92319CAC05C00679EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159DD92119CAC05C00679EF7 /* Main.storyboard */; };
-		159DD92619CAC05C00679EF7 /* NDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD92519CAC05C00679EF7 /* NDViewController.m */; };
 		159DD92819CAC05C00679EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 159DD92719CAC05C00679EF7 /* Images.xcassets */; };
 		159DD92F19CAC05C00679EF7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DD92E19CAC05C00679EF7 /* XCTest.framework */; };
 		159DD93019CAC05C00679EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 159DD90F19CAC05C00679EF7 /* Foundation.framework */; };
@@ -33,6 +32,9 @@
 		159DD96519CAD54000679EF7 /* NDdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96419CAD54000679EF7 /* NDdata.m */; };
 		159DD96919CADA8E00679EF7 /* starIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD96719CADA8E00679EF7 /* starIcon.png */; };
 		159DD96A19CADA8E00679EF7 /* trophyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD96819CADA8E00679EF7 /* trophyIcon.png */; };
+		159DD96D19CAFB3900679EF7 /* NDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96C19CAFB3900679EF7 /* NDRootViewController.m */; };
+		159DD97019CB0D8200679EF7 /* NDStoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96F19CB0D8200679EF7 /* NDStoryTableViewCell.m */; };
+		159DD98019CB1FE200679EF7 /* NDAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD97F19CB1FE200679EF7 /* NDAppearance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +59,6 @@
 		159DD91E19CAC05C00679EF7 /* NDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDAppDelegate.h; sourceTree = "<group>"; };
 		159DD91F19CAC05C00679EF7 /* NDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDAppDelegate.m; sourceTree = "<group>"; };
 		159DD92219CAC05C00679EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		159DD92419CAC05C00679EF7 /* NDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDViewController.h; sourceTree = "<group>"; };
-		159DD92519CAC05C00679EF7 /* NDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDViewController.m; sourceTree = "<group>"; };
 		159DD92719CAC05C00679EF7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		159DD92D19CAC05C00679EF7 /* StoryHopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryHopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		159DD92E19CAC05C00679EF7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,6 +81,12 @@
 		159DD96419CAD54000679EF7 /* NDdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDdata.m; sourceTree = "<group>"; };
 		159DD96719CADA8E00679EF7 /* starIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starIcon.png; sourceTree = "<group>"; };
 		159DD96819CADA8E00679EF7 /* trophyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophyIcon.png; sourceTree = "<group>"; };
+		159DD96B19CAFB3900679EF7 /* NDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDRootViewController.h; path = ../NDRootViewController.h; sourceTree = "<group>"; };
+		159DD96C19CAFB3900679EF7 /* NDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NDRootViewController.m; path = ../NDRootViewController.m; sourceTree = "<group>"; };
+		159DD96E19CB0D8200679EF7 /* NDStoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDStoryTableViewCell.h; sourceTree = "<group>"; };
+		159DD96F19CB0D8200679EF7 /* NDStoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDStoryTableViewCell.m; sourceTree = "<group>"; };
+		159DD97E19CB1FE200679EF7 /* NDAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAppearance.h; sourceTree = "<group>"; };
+		159DD97F19CB1FE200679EF7 /* NDAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAppearance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +149,9 @@
 				159DD91E19CAC05C00679EF7 /* NDAppDelegate.h */,
 				159DD91F19CAC05C00679EF7 /* NDAppDelegate.m */,
 				159DD92119CAC05C00679EF7 /* Main.storyboard */,
-				159DD92419CAC05C00679EF7 /* NDViewController.h */,
-				159DD92519CAC05C00679EF7 /* NDViewController.m */,
+				159DD96B19CAFB3900679EF7 /* NDRootViewController.h */,
+				159DD96C19CAFB3900679EF7 /* NDRootViewController.m */,
+				159DD97119CB0D9600679EF7 /* View */,
 				159DD96619CADA7C00679EF7 /* Images */,
 				159DD94E19CAC86500679EF7 /* Objects */,
 				159DD94A19CAC82300679EF7 /* Styles */,
@@ -186,6 +193,8 @@
 		159DD94A19CAC82300679EF7 /* Styles */ = {
 			isa = PBXGroup;
 			children = (
+				159DD97E19CB1FE200679EF7 /* NDAppearance.h */,
+				159DD97F19CB1FE200679EF7 /* NDAppearance.m */,
 				159DD94419CAC21800679EF7 /* NDStyleKit.h */,
 				159DD94519CAC21800679EF7 /* NDStyleKit.m */,
 			);
@@ -234,6 +243,15 @@
 				159DD96819CADA8E00679EF7 /* trophyIcon.png */,
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		159DD97119CB0D9600679EF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				159DD96E19CB0D8200679EF7 /* NDStoryTableViewCell.h */,
+				159DD96F19CB0D8200679EF7 /* NDStoryTableViewCell.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,11 +362,13 @@
 			files = (
 				159DD96519CAD54000679EF7 /* NDdata.m in Sources */,
 				159DD94D19CAC85700679EF7 /* NDStory.m in Sources */,
-				159DD92619CAC05C00679EF7 /* NDViewController.m in Sources */,
+				159DD98019CB1FE200679EF7 /* NDAppearance.m in Sources */,
 				159DD92019CAC05C00679EF7 /* NDAppDelegate.m in Sources */,
 				159DD94619CAC21800679EF7 /* NDStyleKit.m in Sources */,
 				159DD95119CAC8FF00679EF7 /* NDuser.m in Sources */,
+				159DD96D19CAFB3900679EF7 /* NDRootViewController.m in Sources */,
 				159DD91C19CAC05C00679EF7 /* main.m in Sources */,
+				159DD97019CB0D8200679EF7 /* NDStoryTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
