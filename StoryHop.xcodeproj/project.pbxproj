@@ -32,9 +32,11 @@
 		159DD96519CAD54000679EF7 /* NDdata.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96419CAD54000679EF7 /* NDdata.m */; };
 		159DD96919CADA8E00679EF7 /* starIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD96719CADA8E00679EF7 /* starIcon.png */; };
 		159DD96A19CADA8E00679EF7 /* trophyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 159DD96819CADA8E00679EF7 /* trophyIcon.png */; };
-		159DD96D19CAFB3900679EF7 /* NDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96C19CAFB3900679EF7 /* NDRootViewController.m */; };
 		159DD97019CB0D8200679EF7 /* NDStoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD96F19CB0D8200679EF7 /* NDStoryTableViewCell.m */; };
 		159DD98019CB1FE200679EF7 /* NDAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD97F19CB1FE200679EF7 /* NDAppearance.m */; };
+		159DD98319CBDB7D00679EF7 /* NDMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD98219CBDB7D00679EF7 /* NDMainTableViewController.m */; };
+		159DD98619CBDC7F00679EF7 /* NDStoryPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD98519CBDC7F00679EF7 /* NDStoryPage.m */; };
+		159DD98919CBDCB300679EF7 /* NDPageComments.m in Sources */ = {isa = PBXBuildFile; fileRef = 159DD98819CBDCB300679EF7 /* NDPageComments.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,12 +83,16 @@
 		159DD96419CAD54000679EF7 /* NDdata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDdata.m; sourceTree = "<group>"; };
 		159DD96719CADA8E00679EF7 /* starIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starIcon.png; sourceTree = "<group>"; };
 		159DD96819CADA8E00679EF7 /* trophyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trophyIcon.png; sourceTree = "<group>"; };
-		159DD96B19CAFB3900679EF7 /* NDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDRootViewController.h; path = ../NDRootViewController.h; sourceTree = "<group>"; };
-		159DD96C19CAFB3900679EF7 /* NDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NDRootViewController.m; path = ../NDRootViewController.m; sourceTree = "<group>"; };
 		159DD96E19CB0D8200679EF7 /* NDStoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDStoryTableViewCell.h; sourceTree = "<group>"; };
 		159DD96F19CB0D8200679EF7 /* NDStoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDStoryTableViewCell.m; sourceTree = "<group>"; };
 		159DD97E19CB1FE200679EF7 /* NDAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAppearance.h; sourceTree = "<group>"; };
 		159DD97F19CB1FE200679EF7 /* NDAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDAppearance.m; sourceTree = "<group>"; };
+		159DD98119CBDB7D00679EF7 /* NDMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDMainTableViewController.h; sourceTree = "<group>"; };
+		159DD98219CBDB7D00679EF7 /* NDMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDMainTableViewController.m; sourceTree = "<group>"; };
+		159DD98419CBDC7F00679EF7 /* NDStoryPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDStoryPage.h; sourceTree = "<group>"; };
+		159DD98519CBDC7F00679EF7 /* NDStoryPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDStoryPage.m; sourceTree = "<group>"; };
+		159DD98719CBDCB300679EF7 /* NDPageComments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDPageComments.h; sourceTree = "<group>"; };
+		159DD98819CBDCB300679EF7 /* NDPageComments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDPageComments.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,11 +155,10 @@
 				159DD91E19CAC05C00679EF7 /* NDAppDelegate.h */,
 				159DD91F19CAC05C00679EF7 /* NDAppDelegate.m */,
 				159DD92119CAC05C00679EF7 /* Main.storyboard */,
-				159DD96B19CAFB3900679EF7 /* NDRootViewController.h */,
-				159DD96C19CAFB3900679EF7 /* NDRootViewController.m */,
+				159DD98119CBDB7D00679EF7 /* NDMainTableViewController.h */,
+				159DD98219CBDB7D00679EF7 /* NDMainTableViewController.m */,
 				159DD97119CB0D9600679EF7 /* View */,
-				159DD96619CADA7C00679EF7 /* Images */,
-				159DD94E19CAC86500679EF7 /* Objects */,
+				159DD94E19CAC86500679EF7 /* Model */,
 				159DD94A19CAC82300679EF7 /* Styles */,
 				159DD92719CAC05C00679EF7 /* Images.xcassets */,
 				159DD91619CAC05C00679EF7 /* Supporting Files */,
@@ -201,22 +206,26 @@
 			name = Styles;
 			sourceTree = "<group>";
 		};
-		159DD94E19CAC86500679EF7 /* Objects */ = {
+		159DD94E19CAC86500679EF7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				159DD94B19CAC85700679EF7 /* NDStory.h */,
-				159DD94C19CAC85700679EF7 /* NDStory.m */,
 				159DD94F19CAC8FF00679EF7 /* NDuser.h */,
 				159DD95019CAC8FF00679EF7 /* NDuser.m */,
+				159DD94B19CAC85700679EF7 /* NDStory.h */,
+				159DD94C19CAC85700679EF7 /* NDStory.m */,
+				159DD98419CBDC7F00679EF7 /* NDStoryPage.h */,
+				159DD98519CBDC7F00679EF7 /* NDStoryPage.m */,
+				159DD98719CBDCB300679EF7 /* NDPageComments.h */,
+				159DD98819CBDCB300679EF7 /* NDPageComments.m */,
+				159DD96619CADA7C00679EF7 /* Images */,
 				159DD95519CACC7300679EF7 /* Dummy Data */,
 			);
-			name = Objects;
+			name = Model;
 			sourceTree = "<group>";
 		};
 		159DD95519CACC7300679EF7 /* Dummy Data */ = {
 			isa = PBXGroup;
 			children = (
-				159DD95619CAD02B00679EF7 /* Profile Pics */,
 				159DD96319CAD54000679EF7 /* NDdata.h */,
 				159DD96419CAD54000679EF7 /* NDdata.m */,
 			);
@@ -239,6 +248,7 @@
 		159DD96619CADA7C00679EF7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				159DD95619CAD02B00679EF7 /* Profile Pics */,
 				159DD96719CADA8E00679EF7 /* starIcon.png */,
 				159DD96819CADA8E00679EF7 /* trophyIcon.png */,
 			);
@@ -360,13 +370,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159DD98619CBDC7F00679EF7 /* NDStoryPage.m in Sources */,
 				159DD96519CAD54000679EF7 /* NDdata.m in Sources */,
 				159DD94D19CAC85700679EF7 /* NDStory.m in Sources */,
 				159DD98019CB1FE200679EF7 /* NDAppearance.m in Sources */,
 				159DD92019CAC05C00679EF7 /* NDAppDelegate.m in Sources */,
 				159DD94619CAC21800679EF7 /* NDStyleKit.m in Sources */,
 				159DD95119CAC8FF00679EF7 /* NDuser.m in Sources */,
-				159DD96D19CAFB3900679EF7 /* NDRootViewController.m in Sources */,
+				159DD98919CBDCB300679EF7 /* NDPageComments.m in Sources */,
+				159DD98319CBDB7D00679EF7 /* NDMainTableViewController.m in Sources */,
 				159DD91C19CAC05C00679EF7 /* main.m in Sources */,
 				159DD97019CB0D8200679EF7 /* NDStoryTableViewCell.m in Sources */,
 			);

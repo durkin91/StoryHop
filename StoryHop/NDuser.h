@@ -8,14 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
+#define USERNAME @"Username"
+#define FIRST_NAME @"First Name"
+#define LAST_NAME @"Last Name"
+#define PROFILE_PIC @"Profile Pic"
+
+
+
 @interface NDuser : NSObject
 
+@property (strong, nonatomic) NSString *username;
 @property (strong, nonatomic) NSString *firstName;
 @property (strong, nonatomic) NSString *lastName;
 @property (strong, nonatomic) UIImage *profilePicture;
-@property (nonatomic) int stars;
-@property (nonatomic) int level;
 
-+ (NDuser *)initUserWithFirstName:(NSString *)firstName withLastName:(NSString *)lastName withProfilePic:(UIImage *)profilePic withStars:(int)stars onLevel:(int)level;
++ (NDuser *)initUserWithData:(NSDictionary *)userData;
 
 @end

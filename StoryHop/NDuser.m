@@ -10,14 +10,13 @@
 
 @implementation NDuser
 
-+ (NDuser *)initUserWithFirstName:(NSString *)firstName withLastName:(NSString *)lastName withProfilePic:(UIImage *)profilePic withStars:(int)stars onLevel:(int)level
++ (NDuser *)initUserWithData:(NSDictionary *)userData
 {
     NDuser *user = [[NDuser alloc] init];
-    user.firstName = firstName;
-    user.lastName = lastName;
-    user.profilePicture = profilePic;
-    user.stars = stars;
-    user.level = level;
+    user.username = [userData objectForKey:USERNAME];
+    user.firstName = [userData objectForKey:FIRST_NAME];
+    user.lastName = [userData objectForKey:LAST_NAME];
+    user.profilePicture = [userData objectForKey:PROFILE_PIC];
     
     return user;
 }

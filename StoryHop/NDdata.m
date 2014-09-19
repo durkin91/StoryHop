@@ -7,41 +7,59 @@
 //
 
 #import "NDdata.h"
+#import "NDStory.h"
 
 
 
 @implementation NDdata
 
-+ (NSArray *)allUsers
+//-(NDuser *)loggedInUsersData:(NDdata *)dataInstance
+
+
++(NSArray *)allUserData
 {
-    NSDictionary *nikki = @{FIRST_NAME : @"Nikki",
+    NSDictionary *nikki = @{USERNAME : @"euka",
+                            FIRST_NAME : @"Nikki",
                             LAST_NAME : @"Durkin",
-                            PROFILE_PIC : @"nikkiDurkin.jpg"};
+                            PROFILE_PIC : [UIImage imageNamed:@"nikkiDurkin.jpg"]};
     
-    NSDictionary *zac = @{
+    NSDictionary *zac = @{USERNAME : @"chadleyz",
                           FIRST_NAME : @"Zac",
                           LAST_NAME : @"Borrowdale",
-                          PROFILE_PIC : @"zacBorrowdale.png"};
-    NSDictionary *pandora = @{
+                          PROFILE_PIC : [UIImage imageNamed:@"zacBorrowdale.png"]};
+    
+    NSDictionary *pandora = @{USERNAME : @"doratheexplorer",
                               FIRST_NAME : @"Pandora",
                               LAST_NAME : @"Shelley",
-                              PROFILE_PIC : @"pandoraShelley.pngs"};
-    NSDictionary *bryce = @{
+                              PROFILE_PIC : [UIImage imageNamed:@"pandoraShelley.pngs"]};
+   
+    NSDictionary *bryce = @{USERNAME : @"mryork",
                             FIRST_NAME : @"Bryce",
                             LAST_NAME : @"York",
-                            PROFILE_PIC : @"bryceYork.jpg"};
-    NSDictionary *alex = @{
+                            PROFILE_PIC : [UIImage imageNamed:@"bryceYork.jpg"]};
+    
+    NSDictionary *alex = @{USERNAME : @"greengurkin",
                            FIRST_NAME : @"Alex",
                            LAST_NAME : @"Durkin",
-                           PROFILE_PIC : @"alexDurkin.jpg"};
-    NSDictionary *jane = @{
+                           PROFILE_PIC : [UIImage imageNamed:@"alexDurkin.jpg"]};
+    
+    NSDictionary *jane = @{USERNAME : @"drunkenceo",
                            FIRST_NAME : @"Jane",
                            LAST_NAME : @"Lu",
-                           PROFILE_PIC : @"JaneLu.jpg"};
+                           PROFILE_PIC : [UIImage imageNamed:@"JaneLu.jpg"]};
     
-    NSArray *allUsers = [[NSArray alloc] initWithObjects:nikki, zac, pandora, bryce, alex, jane, nil];
-    return allUsers;
+    NSArray *allUserData = [[NSArray alloc] initWithObjects:nikki, zac, pandora, bryce, alex, jane, nil];
+    return allUserData;
 
 }
+
+//+(NSArray *)allStoryData
+//{
+//    NSDictionary *story1 = @{TITLE : @"Adventures In The Showpo Office",
+//                             PAGES : nil, //FILL IN LATER
+//                             LEADER : [sel
+//                                 
+//                                 }
+
 
 @end

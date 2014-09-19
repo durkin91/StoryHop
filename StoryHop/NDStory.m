@@ -10,4 +10,10 @@
 
 @implementation NDStory
 
++(NDStory *)initStoryWithData:(NSDictionary *)storyData
+{
+    NDStory *story = [[NDStory alloc] init];
+    story.title = [storyData objectForKey:<#(id)#>]
+}
+
 @end
